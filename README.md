@@ -21,22 +21,9 @@ This project demonstrates how to build robust conversational AI applications usi
 - **Groq LLM** as the model backend
 - **Streamlit** for rapid web UI (optional)
 - **LangGraph** for agent and graph-based flows
-- **Custom tools** (e.g., knowledge base, web search, utilities)
-- **Secure configuration** and developer-friendly logging
 
 ---
 
-## ✨ Features
-
-- 💬 **Conversational AI**: Chatbot with natural language support using Groq’s LLM.
-- 🕸️ **Graph & Agent Flows**: Create complex, multi-step reasoning and tool invocation flows with LangGraph.
-- 🛠️ **Custom Tools**: Easily add your own functions (e.g., calculators, search).
-- 🔐 **Secure Config**: API keys via `.env`/environment/config.py, never hard-coded.
-- 📋 **Structured Logging**: Colorful, developer-friendly logs.
-- 🖥️ **CLI & Web UI**: Run in terminal, Streamlit, or Jupyter (for demos).
-- 🧑‍💻 **Educational**: Modular and easy to understand or extend.
-
----
 ## Visual Diagram
 
 ```mermaid
