@@ -40,9 +40,6 @@ This project demonstrates how to build robust conversational AI applications usi
 
 ## 🧭 Workflow
 
-<details>
-<summary>Visual Workflow Diagram (Click to expand)</summary>
-
 ```mermaid
 graph TD
     A[User starts chatbot (runs script)] --> B[Chatbot initializes Groq LLM and logging]
