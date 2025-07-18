@@ -24,6 +24,59 @@ This project demonstrates how to build robust conversational AI applications usi
 
 ---
 
+## 🚀 How to Run (Setup Process)
+
+1. **Clone the repository**
+    ```bash
+    git clone [https://github.com/kavya-sree-chandhi/chatbotAi.git]
+    cd yourrepo
+    ```
+
+2. **Create and activate a Python virtual environment** (recommended)
+    ```bash
+    python -m venv venv
+    # On Windows:
+    venv\Scripts\activate
+    # On Mac/Linux:
+    source venv/bin/activate
+    ```
+
+3. **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    <details>
+    <summary>Sample <code>requirements.txt</code></summary>
+
+    ```
+    
+    langchain
+    langchain-groq
+    python-dotenv
+    streamlit
+    request
+    colorlog
+
+    ```
+    </details>
+
+4. **Set your Groq API key**
+    - [Sign up for Groq](https://console.groq.com/keys) and copy your API key.
+    - For demos, you may hardcode it, but for best practice, create a `.env` file:
+        ```
+        GROQ_API_KEY=your_actual_groq_api_key
+        ```
+      And update your code to use `os.getenv("GROQ_API_KEY")`.
+
+5. **Run the app**
+    ```bash
+    streamlit run app.py
+    ```
+    - Open [http://localhost:8501](http://localhost:8501) in your browser.
+    - Upload a PDF and start chatting!
+
+---
+
 ## Visual Diagram
 
 ```mermaid
