@@ -42,14 +42,14 @@ This project demonstrates how to build robust conversational AI applications usi
 ```mermaid
 graph TD
     A(User starts chatbot) --> B(Chatbot initializes Groq LLM and logging)
-    B --> C(System message set: "You are a helpful AI assistant...")
+    B --> C(System message set: You are a helpful AI assistant)
     C --> D(Wait for user input in loop)
     D --> E(User enters a message)
     E --> F(Messages sent to Groq LLM via LangChain)
     F --> G(LLM generates response)
     G --> H(Bot prints response to user)
     H --> D
-    D --> I{Did user type 'exit', 'quit', or 'bye'?}
+    D --> I{Did user type exit, quit, or bye'}
     I -- No --> E
     I -- Yes --> J(Chatbot prints goodbye and exits)
 
