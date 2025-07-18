@@ -32,10 +32,16 @@ You can use the CLI chatbot, experiment with tool-based agents, or extend it for
 
 ---
 
-## 📦 Quickstart
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/kavya-sree-chandhi/chatbotAi.git
-cd chatbotAi
+## Workflow
+graph TD
+    A[User starts chatbot (runs script)] --> B[Chatbot initializes Groq LLM and logging]
+    B --> C[System message ("You are a helpful AI assistant...") is set]
+    C --> D[Wait for user input in loop]
+    D --> E[User enters a message]
+    E --> F[Input + system message sent to Groq LLM via LangChain]
+    F --> G[LLM generates a response]
+    G --> H[Bot prints response to user]
+    H --> D
+    D --> I{User types 'exit', 'quit', or 'bye'?}
+    I -- No --> E
+    I -- Yes --> J[Chatbot prints goodbye and exits]
