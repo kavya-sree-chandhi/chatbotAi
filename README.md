@@ -37,8 +37,7 @@ This project demonstrates how to build robust conversational AI applications usi
 - 🧑‍💻 **Educational**: Modular and easy to understand or extend.
 
 ---
-
-## 🧭 Workflow
+## Visual Diagram
 
 ```mermaid
 graph TD
@@ -49,7 +48,4 @@ graph TD
     E --> F[Input + system message sent to Groq LLM via LangChain]
     F --> G[LLM generates a response]
     G --> H[Bot prints response to user]
-    H --> D
-    D --> I{User types 'exit', 'quit', or 'bye'?}
-    I -- No --> E
-    I -- Yes --> J[Chatbot prints goodbye and exits]
+   
