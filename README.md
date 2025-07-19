@@ -99,7 +99,7 @@ Each turn is appended, so you can have a conversation, one question and answer a
 ```mermaid
 flowchart TD
     A[User opens Streamlit Web App] --> B[User enters question in text box]
-    B --> C[User clicks 'Search' button]
+    B --> C[User clicks Search button]
     C --> D[Streamlit passes question to GroqChatbot class]
     D --> E[GroqChatbot sends question to Groq LLM (via LangChain)]
     E --> F[Groq LLM returns generated response]
