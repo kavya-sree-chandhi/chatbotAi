@@ -24,6 +24,12 @@ This project demonstrates how to build robust conversational AI applications usi
 
 ---
 
+<img width="1587" height="367" alt="image" src="https://github.com/user-attachments/assets/57018854-e6d9-4752-b40f-297b8cc53f16" />
+
+<img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/f3cd6c02-88e3-41e4-b526-a19cb0e62f7f" />
+
+<img width="1915" height="966" alt="image" src="https://github.com/user-attachments/assets/0a5114d2-e546-408e-80b5-81288cbd3610" />
+
 ## 🚀 How to Run (Setup Process)
 
 1. **Clone the repository**
