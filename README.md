@@ -7,9 +7,7 @@ Includes code for simple chatbots, graph-based agents, and tool-augmented assist
 
 ## 📖 Introduction
 
-**chatbotAi** is a flexible Python conversational AI platform.  
-You can use it as a simple chatbot, build graph-based agents with LangGraph, or extend it with your own tools and APIs.  
-It supports secure configuration, colorful logging, and can run in the terminal, on the web (Streamlit), or as a notebook demo.
+**chatbotAi** is a flexible Python conversational AI platform. You can use it as a simple chatbot, build graph-based agents with LangGraph, or extend it with your own tools and APIs. It supports secure configuration, colorful logging, and can run in the terminal, on the web (Streamlit), or as a notebook demo.
 
 ---
 
