@@ -97,7 +97,7 @@ Each turn is appended, so you can have a conversation, one question and answer a
 
 ---
 
-## Visual Diagram
+## Workflow Diagram:
 
 ```mermaid
 flowchart TD
