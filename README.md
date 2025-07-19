@@ -101,7 +101,7 @@ flowchart TD
     A[User opens Streamlit Web App] --> B[User enters question in text box]
     B --> C[User clicks Search button]
     C --> D[Streamlit passes question to GroqChatbot class]
-    D --> E[GroqChatbot sends question to Groq LLM (via LangChain)]
+    D --> E[GroqChatbot sends question to Groq LLM via LangChain]
     E --> F[Groq LLM returns generated response]
     F --> G[GroqChatbot receives response]
     G --> H[Streamlit app updates: displays Q&A in chat history]
