@@ -30,9 +30,11 @@ Shows your app initializing in the terminal with config and Groq model details.
 Confirms: configuration is validated, and the chatbot is initialized with the selected model.
 <img width="1587" height="367" alt="image" src="https://github.com/user-attachments/assets/57018854-e6d9-4752-b40f-297b8cc53f16" />
 
+
 2. **Web UI (Initial State)**
 On opening localhost:8501, you see the chatbotAi 🤖 title. There’s a user input box labeled “You:” and a Search button as shown:
 <img width="1917" height="962" alt="image" src="https://github.com/user-attachments/assets/f3cd6c02-88e3-41e4-b526-a19cb0e62f7f" />
+
 
 3. **Web UI (After Asking a Question)**
 After submitting a question (e.g., “how is the weather in texas now?”), your chat displays:
@@ -40,6 +42,7 @@ After submitting a question (e.g., “how is the weather in texas now?”), your
 -Bot’s response in green, giving a multi-line answer.
 Each turn is appended, so you can have a conversation, one question and answer at a time.
 <img width="1915" height="966" alt="image" src="https://github.com/user-attachments/assets/0a5114d2-e546-408e-80b5-81288cbd3610" />
+
 
 ## 🚀 How to Run (Setup Process)
 
